@@ -12,12 +12,13 @@
 
 html, body {
   height: 100%;
+  padding: 10px;
 }
 
 body {
   background-color: #2D2D2D;
   color: #DDD;
-  font: 14px helvetica, arial, clean, sans-serif;
+  font: 14px avenir, helvetica, arial, clean, sans-serif;
   text-align: center;
 }
 
@@ -41,7 +42,7 @@ a:visited {
   color: #666;
 }
 
-ul.menu {
+ul.menu, ul.posts {
   display: block;
   list-style: none inside none;
   padding: 0;
@@ -51,4 +52,18 @@ ul.menu li {
   display: inline;
   font-size: 1.5em;
   padding: 2em 1em;
-  }
+}
+
+.content {
+  float: left;
+  margin: 4em;
+  width: 70%;
+}
+
+.sidebar {
+  float: left;
+}
+
+ul.posts li {
+  padding: 1em;
+}
