@@ -40,3 +40,15 @@ a:hover {
 a:visited {
   color: #666;
 }
+
+ul.menu {
+  display: block;
+  list-style: none inside none;
+  padding: 0;
+}
+
+ul.menu li {
+  display: inline;
+  font-size: 1.5em;
+  padding: 2em 1em;
+  }
