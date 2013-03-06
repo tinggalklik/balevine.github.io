@@ -1,0 +1,41 @@
+/***************************************/
+/* Let's get this party started, yeah? */
+/***************************************/
+
+/* To be fair, these resets were taken
+/* from mojombo's site.
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #333;
+  font: 14px helvetica, arial, clean, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
+p {
+  margin: 1em 0;
+}
+
+a {
+  color: #EEE;
+}
+
+a:hover {
+  color: white;
+}
+
+a:visited {
+  color: #666;
+}
