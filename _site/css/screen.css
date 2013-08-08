@@ -56,13 +56,18 @@ ul.menu li {
 
 .content {
   float: left;
-  margin: 4em;
-  width: 70%;
+  margin-top: 5em;
+  width: 100%;
 }
 
-.sidebar {
+.post-title {
+
+}
+
+.more-posts {
   float: left;
-  padding-top: 100px;
+  padding-top: 20px;
+  width: 100%;
 }
 
 ul.posts li {
