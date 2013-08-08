@@ -74,3 +74,8 @@ ul.menu li {
 ul.posts li {
   padding: 1em;
 }
+
+.footer {
+  float: left;
+  padding-top: 2em;
+}
