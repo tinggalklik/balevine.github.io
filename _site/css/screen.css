@@ -12,7 +12,7 @@
 
 html, body {
   height: 100%;
-  padding: 10px;
+  margin: 0;
 }
 
 body {
@@ -78,4 +78,6 @@ ul.posts li {
 .footer {
   float: left;
   padding-top: 2em;
+  text-align: center;
+  width: 100%;
 }
