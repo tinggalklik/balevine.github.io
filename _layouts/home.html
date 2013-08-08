@@ -20,10 +20,24 @@
 <div class='content'>
   {% for post in site.posts %}
     {% if post == site.posts.first %}
-      {{ post.content }}
+      {{ post.excerpt }}
     {% endif %}
+
+    {% if post == site.posts.second %}
+      {{ post.excerpt }}
+    {% endif %}
+
+    {% if post == site.posts.third %}
+      {{ post.excerpt }}
+    {% endif %}
+
+    {% if post == site.posts.fourth %}
+      {{ post.excerpt }}
+    {% endif %}
+
   {% endfor %}
 </div>
+
 
 <div class='sidebar'>
   <h3>Previous Posts</h3>
