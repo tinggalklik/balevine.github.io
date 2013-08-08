@@ -1,21 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen" />
-<title>Brian's User Page</title>
-</head>
-
-<body>
-
-<div class='header'>
-  <h1>Brian's User Page</h1>
-  <h2>He is not to be trifled with.</h2>
-  <ul class='menu'>
-    <li><a href="/index.html">Home</a></li>
-    <li><a href="/about.html">About</a></li>
-    <li><a href="/links.html">Links</a></li>
-  </ul>
-</div>
+{% include head.html %}
 
 <div class='content'>
   {% for post in site.posts limit:5 %}
@@ -28,9 +11,4 @@
     <h3><a href=''>All Posts</a></h3>
   </div>
 
-<div class='footer'>
-<p>{{ site.url }}</p>
-</div>
-
-</body>
-</html>
+{% include footer.html %}
