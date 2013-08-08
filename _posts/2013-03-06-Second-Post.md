@@ -1,5 +1,6 @@
 ---
 title: Second Post
+layout: posts
 ---
 This is the second post I've written. Interesting, no?
 
