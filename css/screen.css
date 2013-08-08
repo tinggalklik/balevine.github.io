@@ -32,6 +32,7 @@ p {
 
 a {
   color: #EEE;
+  text-decoration: none;
 }
 
 a:hover {
@@ -39,7 +40,7 @@ a:hover {
 }
 
 a:visited {
-  color: #666;
+  color: #EEE;
 }
 
 ul.menu, ul.posts {
