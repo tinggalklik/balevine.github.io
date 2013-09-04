@@ -29,7 +29,6 @@ a:hover {
 .sidebar {
   float: left;
   margin: 2em;
-  text-align: left;
   width: 200px;
 }
 ul.links {
@@ -39,16 +38,20 @@ ul.links {
 }
 ul.links li {
   font-size: 1.5em;
-  padding: 1em 0;
+  padding: .5em 0;
 }
 .content {
   float: left;
   margin-top: 2em;
   min-width: 400px;
+  width: 50%;
 }
 .post {
-  margin-bottom: 1em;
   border-bottom: solid 1px #a1a1a1;
+  margin-bottom: 1em;
+}
+.sidebar, .post p, .post-content {
+  text-align: left;
 }
 .footer {
   float: left;
