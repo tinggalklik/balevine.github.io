@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Just Do Something
+comments: true
 ---
 I've been programming for a long time. The first time I wrote any code at all was when I was seven years old. My father was a programmer, and in 1984 he bought our first home computer -- an Atari 800XL. It was basically a bulky keyboard with an Atari cartidge slot above the keys. There was no monitor, either; you just plugged it into a TV.
 
