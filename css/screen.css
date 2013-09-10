@@ -24,26 +24,33 @@ a, a:visited {
   text-decoration: none;
 }
 a:hover {
-  color: #0f0f0f;
+  color: #888;
 }
 .menu {
   float: left;
   margin: 2em;
+  text-align: center;
   width: 200px;
+}
+.menu-header {
+  margin: 0.5em 0;
 }
 ul.links {
   display: inline-block;
   list-style: none inside none;
+  margin: 0;
   padding: 0;
 }
 ul.links li {
+  display: inline;
   font-size: 1.5em;
   margin: 10px;
   padding: 0;
+  width: 32px;
 }
 .link img {
-  height: 50px;
-  width: 50px;
+  height: 32px;
+  width: 32px;
 }
 .content {
   float: left;
@@ -55,7 +62,7 @@ ul.links li {
   border-bottom: solid 1px #a1a1a1;
   margin-bottom: 1em;
 }
-.menu, .post p, .post-content {
+.post p, .post-content {
   text-align: left;
 }
 .excerpt-link {
