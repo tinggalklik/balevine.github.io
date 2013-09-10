@@ -26,19 +26,24 @@ a, a:visited {
 a:hover {
   color: #0f0f0f;
 }
-.sidebar {
+.menu {
   float: left;
   margin: 2em;
   width: 200px;
 }
 ul.links {
-  display: block;
+  display: inline-block;
   list-style: none inside none;
   padding: 0;
 }
 ul.links li {
   font-size: 1.5em;
-  padding: .5em 0;
+  margin: 10px;
+  padding: 0;
+}
+.link img {
+  height: 50px;
+  width: 50px;
 }
 .content {
   float: left;
@@ -54,7 +59,7 @@ ul.links li {
   text-align: left;
 }
 .excerpt-link {
-  font: 14px;
+  font-size: 12px;
 }
 .footer {
   float: left;
