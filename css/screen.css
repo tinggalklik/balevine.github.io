@@ -53,10 +53,12 @@ ul.links li {
   width: 32px;
 }
 .content {
-  float: left;
-  margin-top: 2em;
+  margin-left: 264px;
+  margin-right: 2em;
+  margin-top: 2.5em;
+  max-width: 800px;
   min-width: 400px;
-  width: 50%;
+  position: fixed;
 }
 .post {
   border-bottom: solid 1px #a1a1a1;
