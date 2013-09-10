@@ -50,8 +50,11 @@ ul.links li {
   border-bottom: solid 1px #a1a1a1;
   margin-bottom: 1em;
 }
-.sidebar, .post p, .post-content {
+.menu, .post p, .post-content {
   text-align: left;
+}
+.excerpt-link {
+  font: 14px;
 }
 .footer {
   float: left;
