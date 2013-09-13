@@ -29,6 +29,7 @@ a:hover {
 .menu {
   float: left;
   margin: 2em;
+  position: fixed;
   text-align: center;
   width: 200px;
 }
@@ -53,6 +54,7 @@ ul.links li {
   width: 32px;
 }
 .content {
+  float: left;
   margin-left: 264px;
   margin-right: 2em;
   margin-top: 2.5em;
